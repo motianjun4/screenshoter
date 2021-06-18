@@ -1,5 +1,5 @@
 {
-  "name": "webpage-screenshot",
+  "name": "tm-screenshoter",
   "version": "1.0.0",
   "description": "Get screenshot of webpage with url!",
   "main": "dist/screenshoter.js",
