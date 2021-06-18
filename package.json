@@ -1,0 +1,32 @@
+{
+  "name": "webpage-screenshot",
+  "version": "1.0.0",
+  "description": "Get screenshot of webpage with url!",
+  "main": "dist/screenshoter.js",
+  "types": "dist/screenshoter.d.ts",
+  "keywords": [
+    "Headless",
+    "Screenshot",
+    "Webpage"
+  ],
+  "author": "motianjun4",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motianjun4/screenshoter.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/motianjun4/screenshoter/issues"
+  },
+  "homepage": "https://github.com/motianjun4/screenshoter#readme",
+  "dependencies": {
+    "puppeteer": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  }
+}
