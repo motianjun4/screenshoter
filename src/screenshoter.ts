@@ -1,4 +1,4 @@
-import * as puppeteer from "puppeteer";
+import puppeteer from "puppeteer";
 
 var browser:puppeteer.Browser
 interface ScreenshotSettings {
@@ -21,10 +21,5 @@ async function getScreenshot(url:string, configs?:ScreenshotSettings){
     return (screenshot as Buffer)
 }
 
-// (async ()=>{
-//     await init()
-//     const b = await getScreenshot("https://www.baidu.com")
-//     console.log(b)
-// })()
 
 export default {init, getScreenshot}

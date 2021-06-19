@@ -1,6 +1,6 @@
 {
   "name": "tm-screenshoter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get screenshot of webpage with url!",
   "main": "dist/screenshoter.js",
   "types": "dist/screenshoter.d.ts",
@@ -10,6 +10,7 @@
     "Webpage"
   ],
   "author": "motianjun4",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
